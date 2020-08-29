@@ -1,9 +1,0 @@
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csprojAssemblyReference.cache
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.CoreCompileInputs.cache
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfoInputs.cache
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
-D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb

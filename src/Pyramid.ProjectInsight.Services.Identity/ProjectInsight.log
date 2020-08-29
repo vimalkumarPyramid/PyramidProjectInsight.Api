@@ -120,4 +120,9 @@
  2020-08-29 11:06:46,081  INFO Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.? [?] - MESSAGE: Executing JsonResult, writing value Pyramid.ProjectInsight.Common.Auth.JsonWebToken.
  2020-08-29 11:06:46,099  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) in 4863.1782ms
  2020-08-29 11:06:46,113  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 4937.4708ms 200 application/json; charset=utf-8
+ 2020-08-29 11:38:33,190  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 11:38:33,294  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 11:38:33,298  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 11:38:33,308  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 19.0668ms
+ 2020-08-29 11:38:33,309  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 141.2097ms 200 text/plain; charset=utf-8
  
