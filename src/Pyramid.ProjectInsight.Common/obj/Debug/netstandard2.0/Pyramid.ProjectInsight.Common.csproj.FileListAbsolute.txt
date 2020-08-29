@@ -1,0 +1,8 @@
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\bin\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.deps.json
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\bin\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.dll
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\bin\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.pdb
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\obj\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.csproj.CoreCompileInputs.cache
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\obj\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.AssemblyInfoInputs.cache
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\obj\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.AssemblyInfo.cs
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\obj\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.dll
+D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Common\obj\Debug\netstandard2.0\Pyramid.ProjectInsight.Common.pdb

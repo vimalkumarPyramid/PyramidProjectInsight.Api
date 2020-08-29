@@ -1,0 +1,123 @@
+2020-08-29 10:56:02,586  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:62443/  0
+ 2020-08-29 10:56:02,586  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 10:56:02,873  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 410.7105ms 200 
+ 2020-08-29 10:56:03,413  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 10:56:03,461  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 10:56:03,494  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://127.0.0.1:32792/iisintegration  0
+ 2020-08-29 10:56:03,500  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 7.2139ms 202 
+ 2020-08-29 10:56:03,515  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 161.0586ms
+ 2020-08-29 10:56:03,527  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1075.8223ms 200 text/plain; charset=utf-8
+ 2020-08-29 10:56:09,197  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/favicon.ico  
+ 2020-08-29 10:56:09,545  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 408.4114ms 404 
+ 2020-08-29 10:56:33,195  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:62443/  0
+ 2020-08-29 10:56:33,195  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 10:56:33,358  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 244.6283ms 200 
+ 2020-08-29 10:56:33,751  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 10:56:33,782  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 10:56:33,821  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 122.4152ms
+ 2020-08-29 10:56:33,829  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 723.3706ms 200 text/plain; charset=utf-8
+ 2020-08-29 10:56:33,889  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/favicon.ico  
+ 2020-08-29 10:56:33,909  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 15.8453ms 404 
+ 2020-08-29 10:59:51,455  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 10:59:51,455  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:62443/  0
+ 2020-08-29 10:59:51,657  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 299.8187ms 200 
+ 2020-08-29 10:59:52,278  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 10:59:52,308  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 10:59:52,373  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 133.8786ms
+ 2020-08-29 10:59:52,392  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1056.7607ms 200 text/plain; charset=utf-8
+ 2020-08-29 11:00:14,794  INFO Pyramid.ProjectInsight.Common.Commands.CreateUser.? [?] - MESSAGE: Creating user: 'ish1.bandhu@pyramidconsultinginc.com' with name: 'Ish'.
+ 2020-08-29 11:00:17,855 ERROR Pyramid.ProjectInsight.Common.Commands.CreateUser.? [?] - MESSAGE: Command aggregate failed: Database name Pyramid-ProjectInsight-Services-Identity is too long.  Max database name length is 38 bytes..
+ MongoDB.Driver.MongoCommandException: Command aggregate failed: Database name Pyramid-ProjectInsight-Services-Identity is too long.  Max database name length is 38 bytes..
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.AggregateAsync[TResult](IClientSessionHandle session, PipelineDefinition`2 pipeline, AggregateOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.AsyncCursorHelper.FirstOrDefaultAsync[T](Task`1 cursorTask, CancellationToken cancellationToken)
+   at Pyramid.ProjectInsight.Services.Identity.Repositories.UserRepository.GetAsync(String email) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Repositories\UserRepository.cs:line 24
+   at Pyramid.ProjectInsight.Services.Identity.Services.UserService.RegisterAsync(String email, String password, String name) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Services\UserService.cs:line 45
+   at Pyramid.ProjectInsight.Services.Identity.Handlers.CreateUserHandler.HandleAsync(CreateUser command) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Handlers\CreateUserHandler.cs:line 46
+2020-08-29 11:00:28,443  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:62443/login application/json 71
+ 2020-08-29 11:00:28,649  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) with arguments (Pyramid.ProjectInsight.Common.Commands.AuthenticateUser) - ModelState is Valid
+ 2020-08-29 11:00:29,082  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) in 579.4931ms
+ 2020-08-29 11:00:29,110 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.? [?] - MESSAGE: An unhandled exception has occurred while executing the request
+ MongoDB.Driver.MongoCommandException: Command aggregate failed: Database name Pyramid-ProjectInsight-Services-Identity is too long.  Max database name length is 38 bytes..
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.AggregateAsync[TResult](IClientSessionHandle session, PipelineDefinition`2 pipeline, AggregateOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.AsyncCursorHelper.FirstOrDefaultAsync[T](Task`1 cursorTask, CancellationToken cancellationToken)
+   at Pyramid.ProjectInsight.Services.Identity.Repositories.UserRepository.GetAsync(String email) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Repositories\UserRepository.cs:line 24
+   at Pyramid.ProjectInsight.Services.Identity.Services.UserService.LoginAsync(String email, String password) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Services\UserService.cs:line 64
+   at Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login(AuthenticateUser command) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Controllers\AccountController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-08-29 11:00:29,295  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 853.8508ms 500 text/html; charset=utf-8
+ 2020-08-29 11:01:26,923  INFO Pyramid.ProjectInsight.Common.Commands.CreateUser.? [?] - MESSAGE: Creating user: 'ish1.bandhu@pyramidconsultinginc.com' with name: 'Ish'.
+ 2020-08-29 11:03:10,426  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 11:03:10,426  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:62443/  0
+ 2020-08-29 11:03:10,602  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 278.5696ms 200 
+ 2020-08-29 11:03:11,047  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 11:03:11,131  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 11:03:11,189  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 222.1565ms
+ 2020-08-29 11:03:11,211  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 889.1467ms 200 text/plain; charset=utf-8
+ 2020-08-29 11:03:21,517  INFO Pyramid.ProjectInsight.Common.Commands.CreateUser.? [?] - MESSAGE: Creating user: 'ish1.bandhu@pyramidconsultinginc.com' with name: 'Ish'.
+ 2020-08-29 11:03:37,725  INFO Pyramid.ProjectInsight.Common.Commands.CreateUser.? [?] - MESSAGE: User: 'ish1.bandhu@pyramidconsultinginc.com' was created with name: 'Ish'.
+ 2020-08-29 11:03:50,612  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:62443/login application/json 71
+ 2020-08-29 11:03:50,864  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) with arguments (Pyramid.ProjectInsight.Common.Commands.AuthenticateUser) - ModelState is Valid
+ 2020-08-29 11:03:51,289  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) in 593.4855ms
+ 2020-08-29 11:03:51,380 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.? [?] - MESSAGE: An unhandled exception has occurred while executing the request
+ Pyramid.ProjectInsight.Common.Exceptions.ProjectInsightException: Invalid credentials.
+   at Pyramid.ProjectInsight.Services.Identity.Services.UserService.LoginAsync(String email, String password) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Services\UserService.cs:line 70
+   at Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login(AuthenticateUser command) in D:\Learning Projects\Code_.NET+Core+Microservices\Code\src\Pyramid.ProjectInsight.Services.Identity\Controllers\AccountController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-08-29 11:03:51,568  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 956.3336ms 500 text/html; charset=utf-8
+ 2020-08-29 11:04:39,017  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:62443/login application/json 71
+ 2020-08-29 11:04:39,028  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) with arguments (Pyramid.ProjectInsight.Common.Commands.AuthenticateUser) - ModelState is Valid
+ 2020-08-29 11:06:29,782  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:62443/  0
+ 2020-08-29 11:06:29,782  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:62443/  
+ 2020-08-29 11:06:30,026  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 360.8796ms 200 
+ 2020-08-29 11:06:30,495  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) with arguments ((null)) - ModelState is Valid
+ 2020-08-29 11:06:30,533  INFO Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor.? [?] - MESSAGE: Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+ 2020-08-29 11:06:30,577  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.HomeController.Get (Pyramid.ProjectInsight.Services.Identity) in 157.3855ms
+ 2020-08-29 11:06:30,584  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 945.039ms 200 text/plain; charset=utf-8
+ 2020-08-29 11:06:41,178  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://localhost:62443/login application/json 72
+ 2020-08-29 11:06:41,470  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) with arguments (Pyramid.ProjectInsight.Common.Commands.AuthenticateUser) - ModelState is Valid
+ 2020-08-29 11:06:46,081  INFO Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.? [?] - MESSAGE: Executing JsonResult, writing value Pyramid.ProjectInsight.Common.Auth.JsonWebToken.
+ 2020-08-29 11:06:46,099  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action Pyramid.ProjectInsight.Services.Identity.Controllers.AccountController.Login (Pyramid.ProjectInsight.Services.Identity) in 4863.1782ms
+ 2020-08-29 11:06:46,113  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 4937.4708ms 200 application/json; charset=utf-8
+ 
