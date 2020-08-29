@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj": {}
+    "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj": {}
   },
   "projects": {
-    "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj": {
+    "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj",
+        "projectUniqueName": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj",
         "projectName": "Pyramid.ProjectInsight.Common",
-        "projectPath": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj",
-        "packagesPath": "C:\\Users\\ishb\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\obj\\",
+        "projectPath": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj",
+        "packagesPath": "C:\\Users\\vimalk\\.nuget\\packages\\",
+        "outputPath": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ishb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vimalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -95,25 +97,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj": {
+    "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj",
+        "projectUniqueName": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj",
         "projectName": "Pyramid.ProjectInsight.Services.Identity",
-        "projectPath": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj",
-        "packagesPath": "C:\\Users\\ishb\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Services.Identity\\obj\\",
+        "projectPath": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Services.Identity\\Pyramid.ProjectInsight.Services.Identity.csproj",
+        "packagesPath": "C:\\Users\\vimalk\\.nuget\\packages\\",
+        "outputPath": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Services.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ishb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vimalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.0"
@@ -126,8 +130,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj": {
-                "projectPath": "D:\\Learning Projects\\Code_.NET+Core+Microservices\\Code\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj"
+              "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj": {
+                "projectPath": "D:\\PyramidProjectInsight_Api\\src\\Pyramid.ProjectInsight.Common\\Pyramid.ProjectInsight.Common.csproj"
               }
             }
           }
@@ -182,7 +186,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
